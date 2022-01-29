@@ -11,3 +11,14 @@ export const hexToBytes = (hex: string) => {
 }
 
 export const int = (value: BigNum) => Number(value.to_str())
+
+interface LogProps {
+    label: string
+    message: string
+}
+
+export const log = ({ label, message }: LogProps) => {
+    if (process.env.NODE_ENV === 'development') {
+        console.log(`[${label}]: ${message}`)
+    }
+}
