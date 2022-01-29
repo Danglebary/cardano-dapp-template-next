@@ -1,4 +1,4 @@
-# Cardano-dApp-Template-Nextjs
+# Cardano-dApp-Template-Next
 
 Simple starting template for a dApp frontend built on the Cardano network using Nextjs and Chakra-ui,
 with responsiveness and accessibility in mind.
