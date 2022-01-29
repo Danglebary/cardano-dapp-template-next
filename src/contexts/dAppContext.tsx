@@ -1,8 +1,7 @@
 import { createContext, useEffect, useState } from 'react'
-import { log } from '../utils/logging'
 import * as emurgo from '@emurgo/cardano-serialization-lib-asmjs'
-import { hexToBytes, int } from '../utils'
 import { WalletApi, WalletProviderContext } from './types'
+import { log, hexToBytes, int } from '../utils'
 
 interface iDappContext {
     connected: boolean
